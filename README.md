@@ -51,3 +51,4 @@ Thanks
 ------
 
 * Thanks to Steven Cogswell for the SerialCommand Library used in the Firmware for the Cube -  https://github.com/scogswell/ArduinoSerialCommand
+* Thanks to pcardune for the Facebook login script - http://blog.carduner.net/2010/05/26/authenticating-with-facebook-on-the-command-line-using-python/
