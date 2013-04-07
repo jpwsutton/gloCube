@@ -31,6 +31,13 @@ To use the running code, connect to the serial port and send one of two commands
 
  – This will flash all LEDs N number of times at the specified colour e.g. ```L 5 0 255 0``` Will flash all LEDs five times green.
 
+To do
+-----
+- [ ] Convert python/gmail_checker.pl to python (And maybe get rid of the curl command).
+- [ ] Separate out some of the logic so that the cube control is done from a module.
+- [ ] Make it work on windows.
+- [ ] Make it deal with a dropped or missing serial port.
+
 
 Author
 ------
