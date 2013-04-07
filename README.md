@@ -37,6 +37,7 @@ To do
 - [ ] Separate out some of the logic so that the cube control is done from a module.
 - [ ] Make it work on windows.
 - [ ] Make it deal with a dropped or missing serial port.
+- [ ] Find a better solution than the current subprocesses.
 
 
 Author
