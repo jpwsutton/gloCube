@@ -7,6 +7,10 @@ This project consists of a number of python scripts and an Arduino .ino
 sketch. Some or all of which might be of use to members of the community that wish
 to build similar notification projects.
 
+The related blog post: http://www.jsutton.co.uk/wordpress/?p=190
+
+The wiki page: http://wiki.jsutton.co.uk/doku.php?id=projects:glocube
+
 gloCube.ino
 -----------
 This Arduino sketch is written for the Teensy++ 2.0 but can be adapted to be
@@ -18,13 +22,24 @@ Once it has been uploaded, useage is as follows:
 
 To use the running code, connect to the serial port and send one of two commands.
 
-F <LED ID> <R value> <G value> <B value> – This will fade the selected LED to the specified colour e.g. “F 0 255 0 0″ will fade LED 0 to red.
-L <Flash No.> <R value> <G value> <B value> – This will flash all LEDs N number of times at the specified colour e.g. “L 5 0 255 0″ Will flash all LEDs five times green.
+```F <LED ID> <R value> <G value> <B value>```
+
+ – This will fade the selected LED to the specified colour e.g. ```F 0 255 0 0``` will fade LED 0 to red.
+ 
+ 
+```L <Flash No.> <R value> <G value> <B value>```
+
+ – This will flash all LEDs N number of times at the specified colour e.g. ```L 5 0 255 0``` Will flash all LEDs five times green.
 
 
 Author
 ------
 
-James Sutton
+James Sutton - Original sketch and python scripts
 
-http://www.jsutton.co.uk/wordpress/?p=190
+
+
+Thanks
+------
+
+* Thanks to Steven Cogswell for the SerialCommand Library used in the Firmware for the Cube -  https://github.com/scogswell/ArduinoSerialCommand
