@@ -33,11 +33,11 @@ To use the running code, connect to the serial port and send one of two commands
 
 To do
 -----
-- [ ] Convert python/gmail_checker.pl to python (And maybe get rid of the curl command).
+- [x] Convert python/gmail_checker.pl to python (And maybe get rid of the curl command).
 - [ ] Separate out some of the logic so that the cube control is done from a module.
 - [ ] Make it work on windows.
-- [ ] Make it deal with a dropped or missing serial port.
-- [ ] Find a better solution than the current subprocesses.
+- [x] Make it deal with a dropped or missing serial port.
+- [x] Find a better solution than the current subprocesses. (facebook login is still launched via a sub process)
 
 
 Author
