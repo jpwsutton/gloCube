@@ -15,8 +15,12 @@ import webbrowser
 import pickle
 
 
-APP_ID = 'APP_ID'
-APP_SECRET = 'APP_SECRET'
+### Import Settings ###
+from glowConfig import *
+print("> Imported Settings.")
+
+APP_ID = facebook_app_id
+APP_SECRET = facebook_app_secret
 ENDPOINT = 'graph.facebook.com'
 REDIRECT_URI = 'http://127.0.0.1:8080/'
 ACCESS_TOKEN = None
