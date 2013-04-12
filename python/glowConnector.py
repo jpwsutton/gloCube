@@ -69,6 +69,7 @@ def checkGmail():
     gmail_feed = feedparser.parse(
         'https://' + gmail_username + ':' + gmail_password +
         '@mail.google.com/mail/feed/atom')
+    numOfEmails = gmail_feed.feed.fullcount
     # Thank you Sam for this!
     if(int(gmail_feed.feed.fullcount) > 0):
         print("You have " + str(numOfEmails) + " emails in your inbox!")
